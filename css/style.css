@@ -153,20 +153,6 @@
 		gap: 32px;
 	}
     
-/* 
-    .fishing-img {
-        content: url(/images/services/fishing-tab1x.jpg);
-		width: 400px; 
-        
-    }
-   
-    .sunbathing-img{
-        content: url(/images/services/sunbathing-tab1x.jpg);
-		width: 380px;
-    }
-         */
-
-    
     .item-services:nth-child(2) {
 		align-self: flex-end;
     }
@@ -216,19 +202,23 @@
   }
 
   /* Desktop */
+
+
+/* for X */
+
 @media screen and (min-width: 1158px) {
     .diving-img {
     content: url(/images/services/diving-desc1x.jpg);
-       width: 712px;
+       /* width: 712px; */
 
     }
     .fishing-img {
         content: url(/images/services/fishing-decs1x.jpg);
-        width: 440px;
+        /* width: 440px; */
     }
     .sunbathing-img { 
         content: url(/images/services/sunbathing-desc1x.jpg);
-        width: 436px
+        /* width: 436px */
     }
 
 }
@@ -237,16 +227,16 @@
   screen and (min-resolution: 2dppx) and (min-width: 1158px) {
     .diving-img {
        content: url(/images/services/diving-desc2x.jpg);
-       width: 712px;
+       /* width: 712px; */
 
     }
     .fishing-img {
         content: url(/images/services/fishing-desc2x.jpg);
-        width: 440px;
+        /* width: 440px; */
     }
     .sunbathing-img { 
         content: url(/images/services/sunbathing-desc2x.jpg);
-        width: 436px;
+        /* width: 436px; */
     }
   }
 
@@ -258,4 +248,17 @@
 		flex-wrap: wrap;
 		gap: 64px;
     }
+.item-services:last-child {
+		padding-left: 372px;
+	}
+    .diving-img {    
+    width: 712px
+    }
+
+     .fishing-img {     
+     width: 440px;}
+
+     .sunbathing-img {  
+     width: 436px;
+}
 }
