@@ -104,6 +104,10 @@
     }
     .services-about {
     }
+    .services-content {
+        position: relative;
+
+    }
     .im-services {
     border-radius: 40px;
     background: linear-gradient(0deg, rgba(17, 19, 31, 0.20) 0%, rgba(17, 19, 31, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
@@ -118,7 +122,7 @@
 }
     
     .item-services {
-        position: relative;
+        
         
     }
     .btn-services {
@@ -149,10 +153,9 @@
 		gap: 32px;
 	}
     
-.diving-img {
-    /* content: url(/images/services/diving-tab1x.jpg); */
-    src="./images/services/diving-tab1x.jpg, ./images/services/diving-tab2x.jpg " src="./images/services/"
-    alt="diving"/>
+/* .diving-img {
+    content: url(/images/services/diving-tab1x.jpg);
+   
 
 		width: 704px;
 
@@ -166,9 +169,10 @@
     .sunbathing-img{
         content: url(/images/services/sunbathing-tab1x.jpg);
 		width: 380px;
-        
-
     }
+         */
+
+    
     .item-services:nth-child(2) {
 		align-self: flex-end;
     }
@@ -179,7 +183,79 @@
     .btn-services {
     left: 32px;
     } 
+
 } 
+
+@media screen and (min-width: 768px) {
+    .diving-img {
+    content: url(/images/services/diving-tab1x.jpg);
+    width: 704px;
+ }
+ .fishing-img {
+     content: url(/images/services/fishing-tab1x.jpg);
+     width: 400px;
+ }
+ .sunbathing-img { 
+     content: url(/images/services/sunbathing-tab1x.jpg);
+     width: 380px
+ }
+
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .diving-img {
+        content: url(/images/services/diving-tab2x.jpg);
+           width: 704px;
+    
+        }
+        .fishing-img {
+            content: url(/images/services/fishing-tab2x.jpg);
+            width: 400px;
+        }
+        .sunbathing-img { 
+            content: url(/images/services/sunbathing-tab2x.jpg);
+            width: 380px
+        }
+    
+  }
+
+  /* Desktop */
+@media screen and (min-width: 1158px) {
+    .diving-img {
+    content: url(/images/services/diving-desc1x.jpg);
+       width: 712px;
+
+    }
+    .fishing-img {
+        content: url(/images/services/fishing-decs1x.jpg);
+        width: 440px;
+    }
+    .sunbathing-img { 
+        content: url(/images/services/sunbathing-desc1x.jpg);
+        width: 436px
+    }
+
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+  screen and (min-resolution: 192dpi) and (min-width: 1158px),
+  screen and (min-resolution: 2dppx) and (min-width: 1158px) {
+    .diving-img {
+       content: url(/images/services/diving-desc2x.jpg);
+       width: 712px;
+
+    }
+    .fishing-img {
+        content: url(/images/services/fishing-desc2x.jpg);
+        width: 440px;
+    }
+    .sunbathing-img { 
+        content: url(/images/services/sunbathing-desc2x.jpg);
+        width: 436px;
+    }
+  }
+
 
 
 @media (min-width: 1280px) {
@@ -187,7 +263,8 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		gap: 64px;
-	}
+    }
+	/* }
     .diving-img {
       
     
@@ -206,7 +283,7 @@
             content: url(/images/services/sunbathing-desc1x.jpg) ;
             width: 436px;
     }
- 
+  */
      .item-services:last-child {
          padding-left: 372px;
      }
