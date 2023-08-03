@@ -150,7 +150,10 @@
 	}
     
 .diving-img {
-    content: url(/images/services/diving-tab1x.jpg);
+    /* content: url(/images/services/diving-tab1x.jpg); */
+    src="./images/services/diving-tab1x.jpg, ./images/services/diving-tab2x.jpg " src="./images/services/"
+    alt="diving"/>
+
 		width: 704px;
 
     }
