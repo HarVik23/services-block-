@@ -141,7 +141,7 @@
 	left: 24px;
 	bottom: 24px;
 }
-
+/* tablet */
 @media (max-width: 768px) {
 	.list-services {
 		align-items: center;
