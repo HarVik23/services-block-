@@ -208,16 +208,16 @@
 
 @media screen and (min-width: 1158px) {
     .diving-img {
-    content: url(/images/services/diving-desc1x.jpg);
+    content: url(./images/services/diving-desc1x.jpg);
        /* width: 712px; */
 
     }
     .fishing-img {
-        content: url(/images/services/fishing-decs1x.jpg);
+        content: url(./images/services/fishing-decs1x.jpg);
         /* width: 440px; */
     }
     .sunbathing-img { 
-        content: url(/images/services/sunbathing-desc1x.jpg);
+        content: url(./images/services/sunbathing-desc1x.jpg);
         /* width: 436px */
     }
 
